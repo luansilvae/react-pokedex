@@ -1,0 +1,14 @@
+header {
+  width: 100vw;
+  height: 70px;
+  background: #5dc0d6;
+  
+  display: grid;
+  place-content: center;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 23px;
+  color: #f8f8f8;
+}

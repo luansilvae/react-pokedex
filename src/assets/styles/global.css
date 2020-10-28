@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  background: #FBFBFB;
+}
+
+body,
+button {
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
