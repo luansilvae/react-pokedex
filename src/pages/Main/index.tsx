@@ -40,10 +40,14 @@ function Main() {
             return (
               <div key={poke.name} className="card">
                 <div className="card-content">
-                  <img 
+                  {index > 648 ? (<img 
+                    src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${index + 1}.png`} 
+                    alt="Pokemon" 
+                  />) : (<img 
                     src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${index + 1}.svg`} 
                     alt="Pokemon" 
-                  />
+                  />)}
+                  
                   <Link to="/">{poke.name}</Link>
                 </div>
               </div>
