@@ -1,10 +1,12 @@
 import React from 'react'
 import  './styles.css'
 
+import pokeballLogo from '../../assets/images/pokeball.svg'
+
 function Header() {
   return (
     <header>
-      <h1>React Pokédex</h1>
+      <a href="/"><img src={pokeballLogo} alt="Pokeball"/></a>
     </header>
   )
 }
